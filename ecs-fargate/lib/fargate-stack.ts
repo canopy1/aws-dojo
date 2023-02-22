@@ -3,7 +3,7 @@ import { Construct } from 'constructs';
 // import * as sqs from 'aws-cdk-lib/aws-sqs';
 import * as ecs from 'aws-cdk-lib/aws-ecs';
 
-export class HelloWorldStack extends cdk.Stack {
+export class FargateStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
